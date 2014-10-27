@@ -1,10 +1,12 @@
 # omxlooper
 
-Loop a video on the RaspberryPi.  Once started, it can be controlled through
-a ZeroMQ socket to play another file, pause or stop.
+Loop a video on the RaspberryPi.  Once started, it can be controlled through a
+ZeroMQ socket to play another file, pause or stop.
 
-Based on the `hello_video` sample code.
-Only h264 videos and no audio.
+Based on the `hello_video` sample code.  Only h264 videos and no audio.
+
+**NOTE: This is still on development. It only plays a file and loops, IPC is
+not implemented yet.**
 
 ## Protocol
 
